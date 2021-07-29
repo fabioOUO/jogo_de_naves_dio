@@ -4,6 +4,10 @@
   font-size: 16px;
 }
 
+body {
+  background-image: url("../imgs/fundo.jpg");
+}
+
 @font-face {
   font-family: Titulo;
   src: url("../fontes/ANODETONOONE.TTF");
@@ -25,14 +29,10 @@
   color: #f01515;
 }
 
-.text:nth-child(2):hover {
+.text-link:hover {
   color: #3213e4;
   cursor: pointer;
   font-size: 17px;
-}
-
-body {
-  background-image: url("../imgs/fundo.jpg");
 }
 
 #container {
@@ -96,4 +96,67 @@ body {
   margin-top: 100px;
   text-align: center;
   padding: 10px;
+}
+
+#disparo {
+  width: 50px;
+  height: 8px;
+  position: absolute;
+  background-image: url(../imgs/disparo.png);
+}
+
+#explosao1 {
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao2 {
+  width: 15px;
+  height: 87px;
+  position: absolute;
+}
+
+#explosao3 {
+  width: 44px;
+  height: 51px;
+  position: absolute;
+}
+#placar {
+  width: 450px;
+  height: 50px;
+  position: absolute;
+  left: 5px;
+  top: 590px;
+}
+
+.info-placar {
+  font-family: Titulo;
+  font-size: 20px;
+  color: rgb(228, 187, 55);
+}
+
+#energia {
+  width: 140px;
+  height: 38px;
+  position: absolute;
+  left: 811px;
+  top: 2px;
+}
+
+#fim {
+  width: 350px;
+  height: 200px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 10px;
+}
+
+.reiniciar {
+  font-family: Titulo;
+  font-size: 20px;
+  color: #603a03;
 }
